@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
 	<head>
@@ -15,6 +16,7 @@
 			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
 			crossorigin="anonymous"
 		></script>
+		<link rel="stylesheet" href="{% static 'css/style.css' %}" />
 	</head>
 	<body>
 		<div class="container pt-5">
@@ -49,6 +51,8 @@
 					</tr>
 				</tbody>
 			</table>
+
+			<img src="{% static 'images/django.png' %}" alt="" width="700" />
 		</div>
 	</body>
 </html>
